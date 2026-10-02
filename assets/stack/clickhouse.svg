@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="104" height="84" viewBox="0 0 104 84" role="img" aria-label="CLICKHOUSE">
+  <title>CLICKHOUSE</title>
+  <g transform="translate(36 10) scale(1.3333)" fill="#c9d1d9"><path d="M21.333 10H24v4h-2.667ZM16 1.335h2.667v21.33H16Zm-5.333 0h2.666v21.33h-2.666ZM0 22.665V1.335h2.667v21.33zm5.333-21.33H8v21.33H5.333Z"/></g>
+  <text x="52" y="72" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="0.5" fill="#8b949e" text-anchor="middle">CLICKHOUSE</text>
+</svg>
