@@ -1,15 +1,17 @@
 # Jenoy Rex
 
-3rd-year Data Science Engineering student. Most of what I've built so far is backend and
-infrastructure work (APIs, databases, CI, authentication, encryption), and I'm building on
-that toward LLM evaluation and ML experimentation.
+3rd-year Data Science Engineering student. Most of what I've built is backend and infrastructure
+work (APIs, databases, CI, authentication, encryption). My LLM and ML work so far is evaluation and
+experimentation: benchmarking relevance evaluators against a labeled dataset, and building a
+preregistered experiment harness for LLM negotiation.
 
 ## Featured work
 
 **[Vigil](https://github.com/Jenoyrex/vigil)**: LLM tracing and evaluation platform. A Python SDK
 sends spans to a FastAPI ingestion API backed by ClickHouse; a Postgres-backed worker scores sampled
-LLM spans with TF-IDF and embedding-based relevance evaluators. Next.js dashboard.
-[Live demo](https://vigiljr.netlify.app)
+LLM spans with TF-IDF and embedding-based relevance evaluators. Both evaluators are benchmarked
+offline on the WikiQA dataset, with thresholds selected on a validation split and results reported
+on a held-out test split. Next.js dashboard. [Live demo](https://vigiljr.netlify.app)
 
 **[VaultDrop](https://github.com/Jenoyrex/VaultDrop)**: File vault with client-side AES-GCM
 encryption via the Web Crypto API. The server stores ciphertext and wrapped keys, never usable key
@@ -26,8 +28,8 @@ preregistered welfare and fairness metrics. In progress; no experimental results
 
 ## Currently working on
 
-- Vigil's evaluation pipeline: relevance evaluators (TF-IDF baseline and a local embedding model)
-  run by a background worker over sampled LLM spans
+- Vigil's evaluation component: relevance evaluators (TF-IDF baseline and a local embedding model),
+  their offline WikiQA benchmark, and the worker that runs them over sampled LLM spans
 - The preregistered negotiation experiments in multi-agent-cooperation
 
 ## Technical focus
