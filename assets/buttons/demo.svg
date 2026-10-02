@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="40" viewBox="0 0 128 40" role="img" aria-label="Live demo">
+  <title>Live demo</title>
+  <rect x="0.75" y="0.75" width="126.5" height="38.5" rx="10" fill="#161b22" stroke="#38bdf8" stroke-opacity="0.55" stroke-width="1.5"/>
+  <g transform="translate(16 11) scale(0.75)" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6" />
+  <path d="M10 14 21 3" />
+  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" /></g>
+  <text x="44" y="25" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e6edf3">Live demo</text>
+</svg>

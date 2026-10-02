@@ -1,0 +1,34 @@
+{
+  "source": "GitHub REST API: GET /repos/Jenoyrex/{repo}/languages (bytes per language)",
+  "captured": "2026-10-02",
+  "repos": {
+    "vigil": {
+      "Python": 1313110,
+      "TypeScript": 590682,
+      "Shell": 64274,
+      "Dockerfile": 15043,
+      "CSS": 2446,
+      "Mako": 704,
+      "JavaScript": 559
+    },
+    "VaultDrop": {
+      "TypeScript": 571938,
+      "JavaScript": 2683,
+      "CSS": 1301,
+      "HTML": 53
+    },
+    "ADPO": {
+      "Python": 278084,
+      "TypeScript": 76616,
+      "Mako": 629,
+      "HTML": 291,
+      "CSS": 23
+    },
+    "multi-agent-cooperation": {
+      "Python": 387419,
+      "JavaScript": 199979,
+      "CSS": 69715,
+      "HTML": 5110
+    }
+  }
+}
