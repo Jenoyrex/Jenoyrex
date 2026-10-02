@@ -1,86 +1,45 @@
-<div align="center">
+# Jenoy Rex
 
-# Hi, I'm Jenoy Rex 👋
+3rd-year Data Science Engineering student. Most of what I've built is backend and infrastructure
+work (APIs, databases, CI, authentication, encryption). My LLM and ML work so far is evaluation and
+experimentation: benchmarking relevance evaluators against a labeled dataset, and building a
+preregistered experiment harness for LLM negotiation.
 
-### Full-stack engineer who builds, secures, and ships real production systems
+## Featured work
 
-I learn and prove software engineering through hands-on, production-grade projects — full-stack architecture, security, testing, and deployment — not tutorials.
+**[Vigil](https://github.com/Jenoyrex/vigil)**: LLM tracing and evaluation platform. A Python SDK
+sends spans to a FastAPI ingestion API backed by ClickHouse; a Postgres-backed worker scores sampled
+LLM spans with TF-IDF and embedding-based relevance evaluators. Both evaluators are benchmarked
+offline on the WikiQA dataset, with thresholds selected on a validation split and results reported
+on a held-out test split. Next.js dashboard. [Live demo](https://vigiljr.netlify.app)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jenoy-rex-0173111b6/)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jenoyrex95@gmail.com)
+**[VaultDrop](https://github.com/Jenoyrex/VaultDrop)**: File vault with client-side AES-GCM
+encryption via the Web Crypto API. The server stores ciphertext and wrapped keys, never usable key
+material. Next.js, Express, Prisma, PostgreSQL. [Live demo](https://vaultdrop95.netlify.app)
 
-</div>
+**[ADPO](https://github.com/Jenoyrex/ADPO)**: GitHub App that syncs GitHub Actions run history and
+runs six statistical analyzers over it (regressions, slow jobs and steps, retry waste,
+dependency-install overhead). No LLM in the analysis. FastAPI, PostgreSQL, React.
+[Live demo](https://adpo-gilt.vercel.app)
 
-<br>
+**[multi-agent-cooperation](https://github.com/Jenoyrex/multi-agent-cooperation)**: College group
+project. Research harness for LLM-vs-LLM negotiation experiments with seeded environments and
+preregistered welfare and fairness metrics. In progress; no experimental results yet.
 
----
+## Currently working on
 
-## Featured Projects
+- Vigil's evaluation component: relevance evaluators (TF-IDF baseline and a local embedding model),
+  their offline WikiQA benchmark, and the worker that runs them over sampled LLM spans
+- The preregistered negotiation experiments in multi-agent-cooperation
 
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
+## Technical focus
 
-### 🔐 VaultDrop
+- **Languages:** Python, TypeScript, SQL
+- **Backend and data:** FastAPI, SQLAlchemy/Alembic, Express, Prisma, PostgreSQL, ClickHouse
+- **Frontend:** Next.js, React
+- **ML / LLM:** scikit-learn, fastembed, Anthropic and OpenAI APIs
+- **Tooling:** Docker, GitHub Actions, pytest, Vitest
 
-*Zero-knowledge encrypted file vault — the server only ever stores ciphertext.*
+## Contact
 
-**Solves:** lets a user store files while the provider genuinely can't read them — encryption keys and file/folder names never leave the browser in usable form.
-
-- Client-side AES-256-GCM encryption, Argon2id password hashing, JWT sessions
-- Rate limiting, Helmet + nonce-based CSP security headers
-- Deployed live across Netlify, Render, Neon, and Backblaze B2
-- Automated test suite with CI (typecheck / test / build on every push)
-
-**Stack:** Next.js · Express · Prisma · PostgreSQL · TypeScript
-
-**[Live Demo →](https://vaultdrop95.netlify.app/)** · **[Repository →](https://github.com/Jenoyrex/VaultDrop)**
-
-</td>
-<td width="50%" valign="top">
-
-### ⚙️ ADPO
-
-*Deterministic CI intelligence for GitHub Actions — statistics, not LLM guesses.*
-
-**Solves:** surfaces concrete, evidence-backed CI problems — slow jobs, dependency-install bottlenecks, flaky retries, missed parallelization — each finding tied to real run data, not a guess.
-
-- Six statistics-based analyzers with zero LLM involvement in the analysis
-- GitHub App auth: fine-grained read-only scopes, tokens encrypted at rest
-- Three independently-deployed packages (analysis engine, API, dashboard), 206 automated tests
-
-**Stack:** FastAPI · React · PostgreSQL · Python · GitHub Apps
-
-**[Live Demo →](https://adpo-gilt.vercel.app)** · **[Repository →](https://github.com/Jenoyrex/ADPO)**
-
-</td>
-</tr>
-</table>
-
----
-
-## Tech Stack
-
-<div align="center">
-<img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,express,fastapi,prisma,postgres,py,docker,github" alt="Next.js, React, TypeScript, Tailwind CSS, Express, FastAPI, Prisma, PostgreSQL, Python, Docker, GitHub" />
-</div>
-
----
-
-## Engineering Focus
-
-Full-stack development end to end — from client-side encryption and API design to database schema and CI/CD — with a consistent emphasis on security, automated testing, and actually deploying to production rather than stopping at "it works locally."
-
----
-
-## Currently Building
-
-Expanding VaultDrop's automated security test coverage and adding file-sharing between users.
-
-<br>
-
-<div align="center">
-
-<sub><a href="https://www.linkedin.com/in/jenoy-rex-0173111b6/">LinkedIn</a> · <a href="mailto:jenoyrex95@gmail.com">jenoyrex95@gmail.com</a></sub>
-
-</div>
+[LinkedIn](https://www.linkedin.com/in/jenoy-rex-0173111b6/) · [jenoyrex95@gmail.com](mailto:jenoyrex95@gmail.com)
