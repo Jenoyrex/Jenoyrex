@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render assets/activity.svg, the contribution calendar, from data/contributions.json.
+"""Render assets/activity.svg, a weekly contribution graph, from data/contributions.json.
 
     python3 scripts/generate_stats.py             # re-render from data/contributions.json
     python3 scripts/generate_stats.py --refresh   # re-fetch with `gh` (GraphQL), then re-render
@@ -16,7 +16,6 @@ LOGIN = "Jenoyrex"
 
 MONO = "ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace"
 MUTED = "#6e7681"
-LEVELS = ["#1b1f24", "#373e47", "#636c76", "#9198a1", "#d1d7e0"]  # 0, 1-2, 3-5, 6-9, 10+
 
 
 def refresh():
@@ -33,36 +32,56 @@ def refresh():
         "days": {d["date"]: d["contributionCount"] for d in days if d["contributionCount"]}}, indent=2) + "\n")
 
 
-def level(n):
-    return 0 if n == 0 else 1 if n <= 2 else 2 if n <= 5 else 3 if n <= 9 else 4
+def weekly(c):
+    """Weekly totals (weeks start on Sunday), computed from the verified daily counts."""
+    start, end = (dt.date.fromisoformat(c["window"][k]) for k in ("start", "end"))
+    first = start - dt.timedelta(days=(start.weekday() + 1) % 7)
+    weeks = []
+    d = first
+    while d <= end:
+        total = sum(c["days"].get((d + dt.timedelta(days=i)).isoformat(), 0) for i in range(7))
+        weeks.append((d, total))
+        d += dt.timedelta(days=7)
+    assert sum(t for _, t in weeks) == c["total"], "weekly totals must add up to the verified total"
+    return weeks
 
 
 def render(c):
+    weeks = weekly(c)
+    w, h = 700, 190
+    left, right, top, base = 34, 14, 16, 160
+    peak = max(t for _, t in weeks)
+    ymax = max(10, -(-peak // 10) * 10)
+    xs = [left + i * (w - left - right) / (len(weeks) - 1) for i in range(len(weeks))]
+    ys = [base - t / ymax * (base - top) for _, t in weeks]
+    parts = []
+    for v in range(10, ymax + 1, 10):   # recessive guides
+        y = base - v / ymax * (base - top)
+        parts.append(f'<line x1="{left}" y1="{y:.1f}" x2="{w - right}" y2="{y:.1f}" stroke="#21262d" stroke-width="1"/>')
+        parts.append(f'<text x="{left - 8}" y="{y + 4:.1f}" font-family="{MONO}" font-size="12" fill="{MUTED}" '
+                     f'text-anchor="end">{v}</text>')
+    parts.append(f'<line x1="{left}" y1="{base}" x2="{w - right}" y2="{base}" stroke="#30363d" stroke-width="1"/>')
+    last_month = None
+    for (d, _), x in zip(weeks, xs):
+        m = (d + dt.timedelta(days=6)).month
+        if m != last_month:
+            if x <= w - right - 24:   # skip a label that would run off the right edge
+                parts.append(f'<text x="{x:.1f}" y="{base + 20}" font-family="{MONO}" font-size="12" fill="{MUTED}">'
+                             f'{(d + dt.timedelta(days=6)):%b}'.lower() + '</text>')
+            last_month = m
+    pts = " ".join(f"{x:.1f},{y:.1f}" for x, y in zip(xs, ys))
+    parts.append(f'<polyline points="{pts}" fill="none" stroke="#c9d1d9" stroke-width="2" stroke-linejoin="round" '
+                 f'stroke-linecap="round"/>')
+    i = max(range(len(weeks)), key=lambda k: weeks[k][1])
+    wk = weeks[i][0]
+    parts.append(f'<circle cx="{xs[i]:.1f}" cy="{ys[i]:.1f}" r="4" fill="#0d1117" stroke="#e6edf3" stroke-width="2"/>')
     start, end = (dt.date.fromisoformat(c["window"][k]) for k in ("start", "end"))
-    first = start - dt.timedelta(days=(start.weekday() + 1) % 7)   # Sunday on or before start
-    cell, gap, x0, y0 = 10, 3, 2, 22
-    weeks = (end - first).days // 7 + 1
-    w, h = x0 + weeks * (cell + gap), y0 + 7 * (cell + gap) + 26
-    parts, last_month = [], None
-    for i in range((end - first).days + 1):
-        d = first + dt.timedelta(days=i)
-        if d < start:
-            continue
-        col, row = (d - first).days // 7, (d.weekday() + 1) % 7
-        x, y = x0 + col * (cell + gap), y0 + row * (cell + gap)
-        n = c["days"].get(d.isoformat(), 0)
-        parts.append(f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" fill="{LEVELS[level(n)]}">'
-                     f'<title>{n} contribution{"" if n == 1 else "s"} on {d.day} {d:%b %Y}</title></rect>')
-        if d.day <= 7 and row == 0 and d.month != last_month:
-            month = f"{d:%b}".lower()
-            parts.append(f'<text x="{x}" y="{y0 - 9}" font-family="{MONO}" font-size="10" fill="{MUTED}">{month}</text>')
-            last_month = d.month
     captured = dt.date.fromisoformat(c["captured"])
-    caption = (f'{c["total"]} contributions · {start:%b %Y} – {end:%b %Y} · '
-               f'snapshot {captured.day} {captured:%b %Y}').lower()
-    parts.append(f'<text x="{x0}" y="{h - 6}" font-family="{MONO}" font-size="10.5" fill="{MUTED}">{caption}</text>')
+    print(f"README caption: weekly contributions · {c['total']} total · {start:%b %Y} – {end:%b %Y} · "
+          f"peak {weeks[i][1]} in the week of {wk.day} {wk:%b} · snapshot {captured.day} {captured:%b %Y}".lower())
     return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" '
-            f'aria-label="Contribution calendar">\n' + "\n".join(parts) + "\n</svg>\n")
+            f'aria-label="Weekly contributions, {start:%B %Y} to {end:%B %Y}: {c["total"]} in total">\n'
+            + "\n".join(parts) + "\n</svg>\n")
 
 
 def main():

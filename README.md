@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="./assets/night.gif" width="100%" alt="Pixel-art night landscape: dark mountains, a moon, scattered stars and slowly drifting clouds" />
+  <img src="./assets/hero.gif" width="100%" alt="Jenoy Rex, set over a pixel-art night landscape: dark mountains, a moon, scattered stars and slowly drifting clouds" />
 </p>
-
-<h1 align="center">Jenoy Rex</h1>
 
 <p align="center">
   <b>Data Science Engineering · Backend&nbsp;&amp;&nbsp;ML&nbsp;Systems</b>
@@ -12,7 +10,7 @@
 
 <br />
 
-<img align="right" src="./assets/moon.png" width="150" alt="" />
+<img align="right" src="./assets/moon.png" width="170" alt="" />
 
 ###### ABOUT
 
@@ -82,16 +80,32 @@ preregistered welfare and fairness metrics. In progress; no experimental results
 
 ###### STACK
 
-<code>LANGUAGES&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code> &nbsp;Python · TypeScript · JavaScript · SQL<br />
-<code>BACKEND&nbsp;/&nbsp;DATA</code> &nbsp;FastAPI · SQLAlchemy · Alembic · Express · Prisma · PostgreSQL · ClickHouse · SQLite<br />
-<code>FRONTEND&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code> &nbsp;Next.js · React<br />
-<code>ML&nbsp;/&nbsp;LLM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code> &nbsp;scikit-learn · fastembed · Anthropic API · OpenAI API<br />
-<code>TOOLING&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code> &nbsp;Docker · GitHub Actions · pytest · Vitest
+<img src="./assets/stack/python.svg" width="80" alt="Python" title="Python" />
+<img src="./assets/stack/typescript.svg" width="80" alt="TypeScript" title="TypeScript" />
+<img src="./assets/stack/javascript.svg" width="80" alt="JavaScript" title="JavaScript" />
+<img src="./assets/stack/fastapi.svg" width="80" alt="FastAPI" title="FastAPI" />
+<img src="./assets/stack/sqlalchemy.svg" width="80" alt="SQLAlchemy" title="SQLAlchemy" />
+<img src="./assets/stack/postgresql.svg" width="80" alt="PostgreSQL" title="PostgreSQL" />
+<img src="./assets/stack/clickhouse.svg" width="80" alt="ClickHouse" title="ClickHouse" />
+<img src="./assets/stack/express.svg" width="80" alt="Express" title="Express" />
+<br />
+<img src="./assets/stack/prisma.svg" width="80" alt="Prisma" title="Prisma" />
+<img src="./assets/stack/nextjs.svg" width="80" alt="Next.js" title="Next.js" />
+<img src="./assets/stack/react.svg" width="80" alt="React" title="React" />
+<img src="./assets/stack/scikit-learn.svg" width="80" alt="scikit-learn" title="scikit-learn" />
+<img src="./assets/stack/anthropic.svg" width="80" alt="Anthropic API" title="Anthropic API" />
+<img src="./assets/stack/openai.svg" width="80" alt="OpenAI API" title="OpenAI API" />
+<img src="./assets/stack/docker.svg" width="80" alt="Docker" title="Docker" />
+<img src="./assets/stack/github-actions.svg" width="80" alt="GitHub Actions" title="GitHub Actions" />
+
+<code>ALSO</code> &nbsp;SQL · Alembic · fastembed · SQLite · pytest · Vitest
 
 ###### ACTIVITY
 
-<img src="./assets/activity.svg" width="100%" alt="Contribution calendar, October 2025 to October 2026: 251 contributions" />
+<img src="./assets/activity.svg" width="100%" alt="Weekly contributions, October 2025 to October 2026: 251 in total, peaking at 45 in the week of 16 August 2026" />
 
+<sub>weekly contributions · 251 total · oct 2025 – oct 2026 · peak 45 in the week of 16 aug · snapshot 2 oct 2026</sub>
+<br />
 <sub>GitHub achievement · [Pull Shark ×2](https://github.com/Jenoyrex?tab=achievements)</sub>
 
 <br />
