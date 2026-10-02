@@ -10,7 +10,7 @@
 
 <br />
 
-<img align="right" src="./assets/moon.png" width="170" alt="" />
+<img align="right" src="./assets/coder.png" width="170" alt="Pixel-art illustration of a coder at a desk at night, facing a monitor of code" />
 
 ###### ABOUT
 
@@ -80,23 +80,25 @@ preregistered welfare and fairness metrics. In progress; no experimental results
 
 ###### STACK
 
-<img src="./assets/stack/python.svg" width="80" alt="Python" title="Python" />
-<img src="./assets/stack/typescript.svg" width="80" alt="TypeScript" title="TypeScript" />
-<img src="./assets/stack/javascript.svg" width="80" alt="JavaScript" title="JavaScript" />
-<img src="./assets/stack/fastapi.svg" width="80" alt="FastAPI" title="FastAPI" />
-<img src="./assets/stack/sqlalchemy.svg" width="80" alt="SQLAlchemy" title="SQLAlchemy" />
-<img src="./assets/stack/postgresql.svg" width="80" alt="PostgreSQL" title="PostgreSQL" />
-<img src="./assets/stack/clickhouse.svg" width="80" alt="ClickHouse" title="ClickHouse" />
-<img src="./assets/stack/express.svg" width="80" alt="Express" title="Express" />
-<br />
-<img src="./assets/stack/prisma.svg" width="80" alt="Prisma" title="Prisma" />
-<img src="./assets/stack/nextjs.svg" width="80" alt="Next.js" title="Next.js" />
-<img src="./assets/stack/react.svg" width="80" alt="React" title="React" />
-<img src="./assets/stack/scikit-learn.svg" width="80" alt="scikit-learn" title="scikit-learn" />
-<img src="./assets/stack/anthropic.svg" width="80" alt="Anthropic API" title="Anthropic API" />
-<img src="./assets/stack/openai.svg" width="80" alt="OpenAI API" title="OpenAI API" />
-<img src="./assets/stack/docker.svg" width="80" alt="Docker" title="Docker" />
-<img src="./assets/stack/github-actions.svg" width="80" alt="GitHub Actions" title="GitHub Actions" />
+<p align="center">
+  <img src="./assets/stack/python.svg" width="72" alt="Python" title="Python" />
+  <img src="./assets/stack/typescript.svg" width="72" alt="TypeScript" title="TypeScript" />
+  <img src="./assets/stack/javascript.svg" width="72" alt="JavaScript" title="JavaScript" />
+  <img src="./assets/stack/fastapi.svg" width="72" alt="FastAPI" title="FastAPI" />
+  <img src="./assets/stack/sqlalchemy.svg" width="72" alt="SQLAlchemy" title="SQLAlchemy" />
+  <img src="./assets/stack/postgresql.svg" width="72" alt="PostgreSQL" title="PostgreSQL" />
+  <img src="./assets/stack/clickhouse.svg" width="72" alt="ClickHouse" title="ClickHouse" />
+  <img src="./assets/stack/express.svg" width="72" alt="Express" title="Express" />
+  <br />
+  <img src="./assets/stack/prisma.svg" width="72" alt="Prisma" title="Prisma" />
+  <img src="./assets/stack/nextjs.svg" width="72" alt="Next.js" title="Next.js" />
+  <img src="./assets/stack/react.svg" width="72" alt="React" title="React" />
+  <img src="./assets/stack/scikit-learn.svg" width="72" alt="scikit-learn" title="scikit-learn" />
+  <img src="./assets/stack/anthropic.svg" width="72" alt="Anthropic API" title="Anthropic API" />
+  <img src="./assets/stack/openai.svg" width="72" alt="OpenAI API" title="OpenAI API" />
+  <img src="./assets/stack/docker.svg" width="72" alt="Docker" title="Docker" />
+  <img src="./assets/stack/github-actions.svg" width="72" alt="GitHub Actions" title="GitHub Actions" />
+</p>
 
 <code>ALSO</code> &nbsp;SQL · Alembic · fastembed · SQLite · pytest · Vitest
 
