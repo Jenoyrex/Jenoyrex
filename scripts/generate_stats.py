@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render assets/activity.svg, a weekly contribution graph, from data/contributions.json.
+"""Render assets/activity-live.svg, a weekly contribution graph, from data/contributions.json.
 
     python3 scripts/generate_stats.py                  # re-render from data/contributions.json
     python3 scripts/generate_stats.py --refresh        # fetch the live calendar first (GITHUB_TOKEN or GH_TOKEN)
@@ -20,7 +20,7 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-DATA, OUT = ROOT / "data" / "contributions.json", ROOT / "assets" / "activity.svg"
+DATA, OUT = ROOT / "data" / "contributions.json", ROOT / "assets" / "activity-live.svg"
 LOGIN = "Jenoyrex"
 SOURCE = "GitHub GraphQL API: user.contributionsCollection.contributionCalendar"
 
