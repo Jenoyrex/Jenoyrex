@@ -104,9 +104,10 @@ preregistered welfare and fairness metrics. In progress; no experimental results
 
 ###### ACTIVITY
 
-<img src="./assets/activity.svg" width="100%" alt="Weekly contributions, October 2025 to October 2026: 251 in total, peaking at 45 in the week of 16 August 2026" />
+<!-- activity:start -->
+<img src="./assets/activity.svg" width="100%" alt="Weekly GitHub contributions, October 2025 to October 2026: 251 in total, peaking at 45 in the week of 16 August 2026" />
 
-<sub>weekly contributions · 251 total · oct 2025 – oct 2026 · peak 45 in the week of 16 aug · snapshot 2 oct 2026</sub>
+<sub>weekly contributions · 251 in the last year (oct 2025 – oct 2026) · peak 45 in the week of 16 aug · latest week from 27 sep 2026</sub><!-- activity:end -->
 <br />
 <sub>GitHub achievement · [Pull Shark ×2](https://github.com/Jenoyrex?tab=achievements)</sub>
 
