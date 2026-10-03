@@ -1,12 +1,11 @@
 {
   "login": "Jenoyrex",
-  "source": "https://github.com/users/Jenoyrex/contributions",
-  "captured": "2026-10-02",
+  "source": "GitHub GraphQL API: user.contributionsCollection.contributionCalendar",
   "window": {
-    "start": "2025-10-03",
-    "end": "2026-10-02"
+    "start": "2025-09-28",
+    "end": "2026-10-03"
   },
-  "total": 251,
+  "total": 270,
   "days": {
     "2025-10-06": 1,
     "2025-12-04": 2,
@@ -50,6 +49,7 @@
     "2026-09-25": 13,
     "2026-09-27": 3,
     "2026-09-28": 7,
-    "2026-10-02": 12
+    "2026-10-02": 28,
+    "2026-10-03": 3
   }
 }
