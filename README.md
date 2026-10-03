@@ -104,10 +104,10 @@ preregistered welfare and fairness metrics. In progress; no experimental results
 
 ###### ACTIVITY
 
-<img src="./assets/activity.svg" width="100%" alt="Weekly GitHub contributions over the last year, rendered daily from the GitHub contribution calendar" />
+<img src="./assets/activity-live.svg" width="100%" alt="Weekly GitHub contributions over the last year, rendered daily from the GitHub contribution calendar" />
 <br />
 <sub>GitHub achievement · [Pull Shark ×2](https://github.com/Jenoyrex?tab=achievements)</sub>
 
 <br />
 
-<img src="./assets/horizon.png" width="100%" alt="" />
+<img src="./assets/ave-christus-rex-banner.png" width="100%" alt="" />

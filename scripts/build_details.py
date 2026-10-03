@@ -3,7 +3,7 @@
 
     python3 scripts/build_details.py
 
-assets/horizon.png  "Ave Christus Rex", from assets/source/ave-christus-rex.png (static)
+assets/ave-christus-rex-banner.png  "Ave Christus Rex", from assets/source/ave-christus-rex.png (static)
 assets/night.gif is not touched.
 """
 from pathlib import Path
@@ -45,6 +45,6 @@ sides = np.clip(np.minimum(x, W - 1 - x) / 160.0, 0, 1)[None, :] ** 1.5
 vert = (np.clip(y / 14.0, 0, 1) * np.clip((H - 1 - y) / 10.0, 0, 1))[:, None]
 banner = fade(Image.fromarray(strip.round().astype(np.uint8)), vert * sides)
 
-for name, img in (("horizon.png", banner),):
+for name, img in (("ave-christus-rex-banner.png", banner),):
     img.save(ROOT / "assets" / name, optimize=True)
     print(f"assets/{name}: {img.width}x{img.height}, {(ROOT / 'assets' / name).stat().st_size // 1024} KB")
