@@ -2,12 +2,11 @@
   "login": "Jenoyrex",
   "source": "GitHub GraphQL API: user.contributionsCollection.contributionCalendar",
   "window": {
-    "start": "2025-10-05",
-    "end": "2026-10-10"
+    "start": "2025-10-12",
+    "end": "2026-10-12"
   },
-  "total": 276,
+  "total": 275,
   "days": {
-    "2025-10-06": 1,
     "2025-12-04": 2,
     "2026-05-09": 4,
     "2026-06-27": 2,
