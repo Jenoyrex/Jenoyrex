@@ -1,113 +1,113 @@
 <p align="center">
-  <img src="./assets/hero.gif" width="100%" alt="Jenoy Rex, set over a pixel-art night landscape: dark mountains, a moon, scattered stars and slowly drifting clouds" />
+  <img src="./assets/banner.svg" width="100%" alt="Jenoy Rex — Full-Stack · Security · Systems" />
 </p>
 
 <p align="center">
-  <b>Data Science Engineering · Backend&nbsp;&amp;&nbsp;ML&nbsp;Systems</b>
-  <br />
-  <sub><a href="https://www.linkedin.com/in/jenoy-rex-0173111b6/">LINKEDIN</a> &nbsp;·&nbsp; <a href="mailto:jenoyrex95@gmail.com">EMAIL</a> &nbsp;·&nbsp; <a href="https://github.com/Jenoyrex">GITHUB</a></sub>
+  <a href="https://www.linkedin.com/in/jenoy-rex-0173111b6/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:jenoyrex95@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
 </p>
 
 <br />
 
-<img align="right" src="./assets/coder.png" width="170" alt="Pixel-art illustration of a coder at a desk at night, facing a monitor of code" />
+<img align="right" width="220" src="./assets/coder.png" alt="Pixel-art illustration of a coder at a desk at night, facing a monitor of code" />
 
-###### ABOUT
+### About Me
 
-I'm a 3rd-year Data Science Engineering student who mostly builds backend systems. I'm drawn to
-the infrastructure underneath ML and data work, to experiments that are pinned down before they
-run, and to security designed so the server holds as little as possible.
+```js
+const jenoy = {
+  role: "Full-Stack Developer · Data Science Engineering Student",
+  location: "Karnataka, India",
 
-<code>BACKEND&nbsp;&nbsp;&nbsp;&nbsp;</code> &nbsp;FastAPI services, job queues, CI, auth<br />
-<code>EVALUATION&nbsp;</code> &nbsp;tracing, relevance evaluators, offline benchmarks<br />
-<code>EXPERIMENTS</code> &nbsp;seeded environments, preregistered metrics<br />
-<code>SECURITY&nbsp;&nbsp;&nbsp;</code> &nbsp;client-side encryption, least-privilege GitHub Apps
+  building: [
+    "Vigil — LLM observability & evaluation platform",
+    "VaultDrop — zero-knowledge encrypted file vault",
+    "ADPO — deterministic CI intelligence",
+    "Pata — Indian address intelligence benchmark",
+  ],
 
-###### SELECTED WORK
+  learning: [
+    "Data Science & Machine Learning fundamentals",
+    "Distributed systems",
+  ],
 
-<sub>01 &nbsp;—&nbsp; LLM TRACING & EVALUATION</sub>
+  tech: {
+    frontend: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+    backend: ["FastAPI", "Express.js", "Python"],
+    data: ["PostgreSQL", "ClickHouse", "SQLAlchemy", "Prisma"],
+    devops: ["Docker", "GitHub Actions", "Render", "Vercel", "Netlify"],
+  },
+};
+```
 
-## Vigil
+> "The first principle is that you must not fool yourself."
+> — Richard Feynman
 
-Tracing and evaluation for LLM applications. A Python SDK sends spans to a FastAPI ingestion API
-backed by ClickHouse; a Postgres-backed worker scores sampled LLM spans with TF-IDF and
-embedding-based relevance evaluators, benchmarked offline on WikiQA. Next.js dashboard.
+<br clear="right" />
 
-<code>PYTHON / FASTAPI / CLICKHOUSE / POSTGRESQL / NEXT.JS</code>
-<br />
-<sub>[repository ↗](https://github.com/Jenoyrex/vigil) &nbsp;&nbsp; [live demo ↗](https://vigiljr.netlify.app)</sub>
+### Selected Work
 
-<br />
+**[Vigil](https://github.com/Jenoyrex/vigil)** — LLM observability & evaluation platform
+A production-shaped stack for LLM applications: a Python SDK streams trace/span telemetry to a
+FastAPI ingestion API backed by ClickHouse, a worker/poller pipeline runs relevance evaluators
+(TF-IDF and local embeddings — no third-party model calls) against sampled spans, and a Next.js
+dashboard surfaces traces, analytics and results. Real multi-tenant auth, Alembic-migrated
+Postgres control plane, full CI/CD to a gated manual deploy, and encrypted off-host backups.
+`TypeScript` `Next.js` `Python` `FastAPI` `ClickHouse` `PostgreSQL` `Docker`
+[Live demo ↗](https://vigiljr.netlify.app) · [Repository ↗](https://github.com/Jenoyrex/vigil)
 
-<sub>02 &nbsp;—&nbsp; CLIENT-SIDE ENCRYPTION</sub>
+**[VaultDrop](https://github.com/Jenoyrex/VaultDrop)** — zero-knowledge encrypted file vault
+Files are encrypted client-side (AES-256-GCM via the Web Crypto API) before they ever leave the
+browser — the server stores only ciphertext and wrapped keys, never usable key material.
+TypeScript monorepo deployed live across Netlify, Render, Neon and Backblaze B2, with CI running
+typecheck/test/build on every push.
+`TypeScript` `Next.js` `Express` `Prisma` `PostgreSQL`
+[Live demo ↗](https://vaultdrop95.netlify.app) · [Repository ↗](https://github.com/Jenoyrex/VaultDrop)
 
-## VaultDrop
+**[ADPO](https://github.com/Jenoyrex/ADPO)** — deterministic CI intelligence
+Connects to a repo via a GitHub App and runs six statistics-based analyzers over its Actions
+history — no LLM — surfacing slow jobs, dependency-install overhead and retry waste, with every
+finding traceable back to real run data.
+`Python` `FastAPI` `PostgreSQL` `React`
+[Live demo ↗](https://adpo-gilt.vercel.app) · [Repository ↗](https://github.com/Jenoyrex/ADPO)
 
-A file vault with client-side AES-GCM encryption via the Web Crypto API. Files are encrypted in
-the browser before upload; the server stores ciphertext and wrapped keys, never usable key
-material.
+**[Multi-Agent Cooperation](https://github.com/Jenoyrex/multi-agent-cooperation)** — negotiation
+research <sub>*(college group project)*</sub>
+A preregistered study testing whether structured negotiation instructions change welfare,
+fairness and agreement rates when two LLM agents — one Claude, one GPT — split resources under
+hidden valuations, alongside a separate zero-cost sandbox for exploring rule-based negotiations.
+The 480-negotiation design, harness and analysis pipeline are built and tested; the real-model
+study itself hasn't been run yet, so there are no results to report.
+`Python` `SQLite` `Anthropic API` `OpenAI API`
+[Live demo ↗](https://cooperation-lab.onrender.com) · [Repository ↗](https://github.com/Jenoyrex/multi-agent-cooperation)
 
-<code>TYPESCRIPT / NEXT.JS / EXPRESS / PRISMA / POSTGRESQL</code>
-<br />
-<sub>[repository ↗](https://github.com/Jenoyrex/VaultDrop) &nbsp;&nbsp; [live demo ↗](https://vaultdrop95.netlify.app)</sub>
+**[Pata](https://github.com/Jenoyrex/pata)** — Indian address intelligence benchmark
+An open-source benchmark and toolkit for parsing, normalizing, resolving and geocoding noisy,
+multilingual Indian addresses — built process-first, with architecture decision records and an
+explicit rule that unknowns are recorded as unknown, never guessed. Pre-alpha: no datasets,
+models or benchmark results exist yet; the current milestone is validating the reference
+gazetteer itself.
+`Python`
+[Repository ↗](https://github.com/Jenoyrex/pata)
 
-<br />
-
-<sub>03 &nbsp;—&nbsp; CI ANALYTICS</sub>
-
-## ADPO
-
-A GitHub App that syncs GitHub Actions run history and runs six statistical analyzers over it:
-regressions, slow jobs and steps, retry waste, dependency-install overhead. No LLM in the
-analysis.
-
-<code>PYTHON / FASTAPI / POSTGRESQL / REACT</code>
-<br />
-<sub>[repository ↗](https://github.com/Jenoyrex/ADPO) &nbsp;&nbsp; [live demo ↗](https://adpo-gilt.vercel.app)</sub>
-
-<br />
-
-<sub>04 &nbsp;—&nbsp; LLM RESEARCH · COLLEGE GROUP PROJECT</sub>
-
-## multi-agent-cooperation
-
-A research harness for LLM-vs-LLM negotiation experiments, with seeded environments and
-preregistered welfare and fairness metrics. In progress; no experimental results yet.
-
-<code>PYTHON / ANTHROPIC API / OPENAI API / SQLITE</code>
-<br />
-<sub>[repository ↗](https://github.com/Jenoyrex/multi-agent-cooperation)</sub>
-
-###### STACK
+### Tech Stack
 
 <p align="center">
-  <img src="./assets/stack/python.svg" width="72" alt="Python" title="Python" />
-  <img src="./assets/stack/typescript.svg" width="72" alt="TypeScript" title="TypeScript" />
-  <img src="./assets/stack/javascript.svg" width="72" alt="JavaScript" title="JavaScript" />
-  <img src="./assets/stack/fastapi.svg" width="72" alt="FastAPI" title="FastAPI" />
-  <img src="./assets/stack/sqlalchemy.svg" width="72" alt="SQLAlchemy" title="SQLAlchemy" />
-  <img src="./assets/stack/postgresql.svg" width="72" alt="PostgreSQL" title="PostgreSQL" />
-  <img src="./assets/stack/clickhouse.svg" width="72" alt="ClickHouse" title="ClickHouse" />
-  <img src="./assets/stack/express.svg" width="72" alt="Express" title="Express" />
-  <br />
-  <img src="./assets/stack/prisma.svg" width="72" alt="Prisma" title="Prisma" />
-  <img src="./assets/stack/nextjs.svg" width="72" alt="Next.js" title="Next.js" />
-  <img src="./assets/stack/react.svg" width="72" alt="React" title="React" />
-  <img src="./assets/stack/scikit-learn.svg" width="72" alt="scikit-learn" title="scikit-learn" />
-  <img src="./assets/stack/anthropic.svg" width="72" alt="Anthropic API" title="Anthropic API" />
-  <img src="./assets/stack/openai.svg" width="72" alt="OpenAI API" title="OpenAI API" />
-  <img src="./assets/stack/docker.svg" width="72" alt="Docker" title="Docker" />
-  <img src="./assets/stack/github-actions.svg" width="72" alt="GitHub Actions" title="GitHub Actions" />
+  <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,express,fastapi,py,postgres,docker,git,github,vercel,netlify,prisma" alt="Tech stack icons" />
 </p>
 
-<code>ALSO</code> &nbsp;SQL · Alembic · fastembed · SQLite · pytest · Vitest
+<p align="center"><code>ALSO</code>&nbsp; ClickHouse · SQLAlchemy · Alembic · SQLite · pytest · Vitest</p>
 
-###### ACTIVITY
+### GitHub Analytics
 
-<img src="./assets/activity-live.svg" width="100%" alt="Weekly GitHub contributions over the last year, rendered daily from the GitHub contribution calendar" />
-<br />
-<sub>GitHub achievement · [Pull Shark ×2](https://github.com/Jenoyrex?tab=achievements)</sub>
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Jenoyrex&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="Jenoy's GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jenoyrex&layout=compact&theme=dark&hide_border=true" alt="Top languages" />
+</p>
 
-<br />
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Jenoyrex&theme=dark&hide_border=true" alt="GitHub streak stats" />
+</p>
 
-<img src="./assets/ave-christus-rex-banner.png" width="100%" alt="" />
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Jenoyrex&theme=darkhub&no-frame=true&row=1&column=6" alt="GitHub trophies" />
+</p>

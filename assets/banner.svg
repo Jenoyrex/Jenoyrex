@@ -1,0 +1,28 @@
+<svg width="1584" height="396" viewBox="0 0 1584 396" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="1584" height="396" fill="#0d1117"/>
+  <line x1="300" y1="0" x2="300" y2="396" stroke="#1b2330" stroke-width="1" opacity="0.5"/>
+  <line x1="650" y1="0" x2="650" y2="396" stroke="#1b2330" stroke-width="1" opacity="0.5"/>
+  <line x1="1000" y1="0" x2="1000" y2="396" stroke="#1b2330" stroke-width="1" opacity="0.5"/>
+  <line x1="1350" y1="0" x2="1350" y2="396" stroke="#1b2330" stroke-width="1" opacity="0.5"/>
+  <line x1="0" y1="105" x2="1584" y2="105" stroke="#1b2330" stroke-width="1" opacity="0.35"/>
+  <line x1="0" y1="291" x2="1584" y2="291" stroke="#1b2330" stroke-width="1" opacity="0.35"/>
+
+  <text x="84" y="176" font-family="Helvetica, Arial, sans-serif" font-size="60" font-weight="600" fill="#f5f5f5" letter-spacing="2">JENOY REX</text>
+  <text x="84" y="222" font-family="Helvetica, Arial, sans-serif" font-size="25" fill="#8b98a5" letter-spacing="3">FULL-STACK&#160;&#183;&#160;SECURITY&#160;&#183;&#160;SYSTEMS</text>
+
+  <line x1="770" y1="80" x2="770" y2="316" stroke="#262f3a" stroke-width="1" opacity="0.7"/>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#2dd4bf" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <text x="834" y="210" font-family="Consolas, Menlo, monospace" font-size="30" fill="#e2e8f0">BUILD</text>
+  <line x1="935" y1="200" x2="985" y2="200" stroke="#2dd4bf" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="1001" y="210" font-family="Consolas, Menlo, monospace" font-size="30" fill="#e2e8f0">SECURE</text>
+  <line x1="1138" y1="200" x2="1188" y2="200" stroke="#2dd4bf" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="1204" y="210" font-family="Consolas, Menlo, monospace" font-size="30" fill="#e2e8f0">TEST</text>
+  <line x1="1292" y1="200" x2="1342" y2="200" stroke="#2dd4bf" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="834" y="260" font-family="Consolas, Menlo, monospace" font-size="30" fill="#e2e8f0">DEPLOY</text>
+</svg>
