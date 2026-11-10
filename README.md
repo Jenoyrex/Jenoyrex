@@ -100,14 +100,9 @@ gazetteer itself.
 ### GitHub Analytics
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Jenoyrex&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="Jenoy's GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jenoyrex&layout=compact&theme=dark&hide_border=true" alt="Top languages" />
+  <img src="./assets/activity-live.svg" alt="Weekly GitHub contributions over the past year" />
 </p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=Jenoyrex&theme=dark&hide_border=true" alt="GitHub streak stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Jenoyrex&theme=darkhub&no-frame=true&row=1&column=6" alt="GitHub trophies" />
 </p>
