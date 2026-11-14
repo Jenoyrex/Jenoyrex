@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="196" viewBox="0 0 420 196">
+<style>.tw{animation:tw 3s ease-in-out infinite;opacity:.2}@keyframes tw{0%,100%{opacity:.15}50%{opacity:.9}}
+.card{animation:rise .9s cubic-bezier(.2,.8,.2,1) 0.5s both}
+@keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+.sweep{animation:sweep 6s linear 1.5s infinite}@keyframes sweep{0%{transform:translateX(-160px)}40%,100%{transform:translateX(580px)}}
+.dot{animation:pulse 2s ease-in-out infinite}@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}</style>
+<defs><clipPath id="r"><rect x="1" y="1" width="418" height="194" rx="14"/></clipPath>
+<linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".06"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+<g class="card">
+<rect x=".5" y=".5" width="419" height="195" rx="14" fill="#0d1117" stroke="#30363d"/>
+<g clip-path="url(#r)"><g opacity=".8"><circle class="tw" cx="275.6" cy="16.4" r="0.87" fill="#fff" style="animation-delay:1.01s;animation-duration:2.69s"/>
+<circle class="tw" cx="113.4" cy="141.1" r="0.60" fill="#fff" style="animation-delay:2.96s;animation-duration:4.94s"/>
+<circle class="tw" cx="207.5" cy="75.9" r="0.74" fill="#fff" style="animation-delay:2.73s;animation-duration:4.42s"/>
+<circle class="tw" cx="258.2" cy="124.8" r="0.54" fill="#fff" style="animation-delay:0.59s;animation-duration:3.13s"/>
+<circle class="tw" cx="310.2" cy="61.2" r="0.78" fill="#fff" style="animation-delay:0.05s;animation-duration:2.65s"/>
+<circle class="tw" cx="114.7" cy="130.3" r="0.85" fill="#fff" style="animation-delay:2.70s;animation-duration:3.23s"/>
+<circle class="tw" cx="216.8" cy="91.4" r="0.73" fill="#fff" style="animation-delay:0.47s;animation-duration:4.73s"/>
+<circle class="tw" cx="86.1" cy="187.9" r="0.97" fill="#fff" style="animation-delay:0.07s;animation-duration:3.65s"/>
+<circle class="tw" cx="341.8" cy="186.0" r="0.72" fill="#fff" style="animation-delay:1.07s;animation-duration:3.02s"/>
+<circle class="tw" cx="393.6" cy="43.6" r="0.79" fill="#fff" style="animation-delay:0.57s;animation-duration:3.81s"/>
+<circle class="tw" cx="396.5" cy="28.9" r="0.91" fill="#fff" style="animation-delay:2.03s;animation-duration:4.72s"/>
+<circle class="tw" cx="293.8" cy="47.5" r="0.95" fill="#fff" style="animation-delay:1.94s;animation-duration:2.56s"/></g>
+<rect class="sweep" x="0" y="0" width="120" height="196" fill="url(#sh)" transform="skewX(-20)"/></g>
+<text x="22" y="46" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#e6edf3">🔭 Vigil</text>
+<rect x="349.6" y="28" width="48.4" height="22" rx="11" fill="#0f2a1b" stroke="#238636" stroke-opacity=".6"/>
+<circle class="dot" cx="360.6" cy="39" r="3.5" fill="#3fb950"/>
+<text x="369.6" y="43.5" font-family="ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#7ee787">demo</text>
+<text x="22" y="86" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="13.5" fill="#8b949e">A learning project on LLM observability: a Python</text><text x="22" y="106" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="13.5" fill="#8b949e">SDK sends traces to a FastAPI API, stored in</text><text x="22" y="126" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="13.5" fill="#8b949e">ClickHouse, viewed in Next.js.</text>
+<rect x="22" y="152" width="60" height="22" rx="11" fill="#161b22" stroke="#30363d"/><text x="52.0" y="167" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8bb4ff">Python</text><rect x="88" y="152" width="67" height="22" rx="11" fill="#161b22" stroke="#30363d"/><text x="121.5" y="167" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8bb4ff">FastAPI</text><rect x="161" y="152" width="67" height="22" rx="11" fill="#161b22" stroke="#30363d"/><text x="194.5" y="167" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8bb4ff">Next.js</text>
+</g></svg>

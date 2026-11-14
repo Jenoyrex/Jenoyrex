@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="46" viewBox="0 0 900 46">
+<style>.tw{animation:tw 3s ease-in-out infinite;opacity:.2}@keyframes tw{0%,100%{opacity:.15}50%{opacity:.9}}
+.line{stroke-dasharray:900;stroke-dashoffset:900;animation:draw 2.2s ease-out forwards}
+@keyframes draw{to{stroke-dashoffset:0}}</style>
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#8bb4ff" stop-opacity="0"/>
+<stop offset=".5" stop-color="#8bb4ff" stop-opacity=".55"/><stop offset="1" stop-color="#8bb4ff" stop-opacity="0"/></linearGradient>
+<linearGradient id="tail" x1="1" x2="0"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+<line class="line" x1="0" y1="23.0" x2="900" y2="23.0" stroke="url(#g)" stroke-width="1"/>
+<circle class="tw" cx="292.9" cy="9.7" r="1.09" fill="#fff" style="animation-delay:0.29s;animation-duration:3.84s"/>
+<circle class="tw" cx="330.2" cy="6.2" r="0.96" fill="#fff" style="animation-delay:0.15s;animation-duration:3.58s"/>
+<circle class="tw" cx="66.3" cy="7.4" r="0.88" fill="#fff" style="animation-delay:3.31s;animation-duration:2.81s"/>
+<circle class="tw" cx="203.1" cy="27.8" r="1.35" fill="#fff" style="animation-delay:2.31s;animation-duration:3.49s"/>
+<circle class="tw" cx="874.8" cy="5.8" r="1.27" fill="#fff" style="animation-delay:1.16s;animation-duration:2.86s"/>
+<circle class="tw" cx="109.1" cy="15.7" r="1.23" fill="#fff" style="animation-delay:0.72s;animation-duration:3.95s"/>
+<circle class="tw" cx="573.9" cy="18.2" r="0.99" fill="#fff" style="animation-delay:0.25s;animation-duration:2.65s"/>
+<circle class="tw" cx="187.7" cy="29.9" r="0.88" fill="#fff" style="animation-delay:1.26s;animation-duration:3.96s"/>
+<circle class="tw" cx="408.2" cy="15.4" r="1.21" fill="#fff" style="animation-delay:2.80s;animation-duration:3.11s"/>
+<circle class="tw" cx="516.4" cy="24.0" r="1.29" fill="#fff" style="animation-delay:2.92s;animation-duration:3.22s"/>
+<circle class="tw" cx="878.3" cy="8.5" r="0.88" fill="#fff" style="animation-delay:3.03s;animation-duration:2.88s"/>
+<circle class="tw" cx="440.2" cy="5.5" r="1.10" fill="#fff" style="animation-delay:3.06s;animation-duration:3.93s"/>
+<circle class="tw" cx="784.9" cy="15.9" r="1.13" fill="#fff" style="animation-delay:2.38s;animation-duration:3.95s"/>
+<circle class="tw" cx="410.9" cy="35.9" r="1.35" fill="#fff" style="animation-delay:1.90s;animation-duration:4.16s"/>
+<circle class="tw" cx="58.1" cy="30.7" r="1.08" fill="#fff" style="animation-delay:3.97s;animation-duration:4.55s"/>
+<circle class="tw" cx="257.9" cy="18.7" r="1.10" fill="#fff" style="animation-delay:0.09s;animation-duration:3.65s"/>
+<circle class="tw" cx="153.9" cy="8.4" r="0.55" fill="#fff" style="animation-delay:3.07s;animation-duration:2.82s"/>
+<circle class="tw" cx="224.9" cy="18.9" r="1.28" fill="#fff" style="animation-delay:0.32s;animation-duration:3.62s"/>
+<circle class="tw" cx="494.1" cy="37.6" r="1.24" fill="#fff" style="animation-delay:3.46s;animation-duration:3.20s"/>
+<circle class="tw" cx="374.4" cy="17.6" r="1.30" fill="#fff" style="animation-delay:3.83s;animation-duration:2.88s"/>
+<circle class="tw" cx="161.2" cy="12.8" r="0.71" fill="#fff" style="animation-delay:1.94s;animation-duration:3.97s"/>
+<circle class="tw" cx="238.4" cy="4.2" r="0.88" fill="#fff" style="animation-delay:1.48s;animation-duration:3.92s"/>
+<circle class="tw" cx="854.2" cy="30.2" r="0.96" fill="#fff" style="animation-delay:2.47s;animation-duration:4.19s"/>
+<circle class="tw" cx="52.2" cy="38.2" r="1.20" fill="#fff" style="animation-delay:3.50s;animation-duration:4.49s"/>
+<circle class="tw" cx="354.0" cy="19.2" r="0.59" fill="#fff" style="animation-delay:2.54s;animation-duration:2.66s"/>
+<circle class="tw" cx="64.1" cy="11.9" r="0.65" fill="#fff" style="animation-delay:1.36s;animation-duration:2.63s"/>
+<g opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.8;1" dur="5s" begin="1s" repeatCount="indefinite"/>
+<g><animateTransform attributeName="transform" type="translate" from="-80 6" to="920 34" dur="5s" begin="1s" repeatCount="indefinite"/>
+<rect x="-60" y="-1" width="60" height="2" fill="url(#tail)" transform="rotate(1.8)"/><circle r="2.2" fill="#fff"/></g></g>
+<text x="450.0" y="28.0" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="13" fill="#f0e6c8">✦</text>
+</svg>

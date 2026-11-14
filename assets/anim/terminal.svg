@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="332" viewBox="0 0 760 332">
+<style>.tw{animation:tw 3s ease-in-out infinite;opacity:.2}@keyframes tw{0%,100%{opacity:.15}50%{opacity:.9}}
+.win{animation:pop .7s cubic-bezier(.2,.8,.2,1) both}@keyframes pop{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}</style>
+<g class="win">
+<rect x=".5" y=".5" width="759" height="331" rx="12" fill="#0d1117" stroke="#30363d"/>
+<g opacity=".7"><circle class="tw" cx="4.2" cy="53.0" r="0.56" fill="#fff" style="animation-delay:1.45s;animation-duration:2.56s"/>
+<circle class="tw" cx="661.5" cy="203.0" r="0.59" fill="#fff" style="animation-delay:1.01s;animation-duration:3.37s"/>
+<circle class="tw" cx="277.9" cy="43.8" r="1.01" fill="#fff" style="animation-delay:3.97s;animation-duration:3.66s"/>
+<circle class="tw" cx="367.8" cy="31.8" r="0.56" fill="#fff" style="animation-delay:1.37s;animation-duration:3.16s"/>
+<circle class="tw" cx="627.3" cy="56.3" r="0.51" fill="#fff" style="animation-delay:3.80s;animation-duration:3.82s"/>
+<circle class="tw" cx="114.2" cy="180.0" r="0.52" fill="#fff" style="animation-delay:2.11s;animation-duration:4.95s"/>
+<circle class="tw" cx="653.2" cy="229.6" r="0.66" fill="#fff" style="animation-delay:1.47s;animation-duration:2.92s"/>
+<circle class="tw" cx="584.5" cy="176.6" r="0.97" fill="#fff" style="animation-delay:1.32s;animation-duration:3.06s"/>
+<circle class="tw" cx="614.3" cy="323.1" r="1.01" fill="#fff" style="animation-delay:3.22s;animation-duration:4.55s"/>
+<circle class="tw" cx="560.4" cy="77.5" r="0.81" fill="#fff" style="animation-delay:1.42s;animation-duration:2.57s"/>
+<circle class="tw" cx="25.0" cy="94.5" r="0.66" fill="#fff" style="animation-delay:2.77s;animation-duration:4.89s"/>
+<circle class="tw" cx="340.3" cy="307.6" r="1.09" fill="#fff" style="animation-delay:3.82s;animation-duration:3.41s"/>
+<circle class="tw" cx="169.8" cy="77.5" r="0.62" fill="#fff" style="animation-delay:0.82s;animation-duration:4.06s"/>
+<circle class="tw" cx="681.0" cy="276.3" r="0.79" fill="#fff" style="animation-delay:2.61s;animation-duration:4.50s"/>
+<circle class="tw" cx="67.8" cy="218.0" r="1.05" fill="#fff" style="animation-delay:3.13s;animation-duration:4.38s"/>
+<circle class="tw" cx="363.5" cy="61.8" r="0.97" fill="#fff" style="animation-delay:1.33s;animation-duration:4.50s"/>
+<circle class="tw" cx="734.7" cy="132.3" r="0.74" fill="#fff" style="animation-delay:3.79s;animation-duration:4.31s"/>
+<circle class="tw" cx="131.8" cy="45.2" r="0.59" fill="#fff" style="animation-delay:3.62s;animation-duration:4.52s"/></g>
+<path d="M.5 12.5a12 12 0 0 1 12-12h735a12 12 0 0 1 12 12v20h-759z" fill="#161b22"/>
+<circle cx="22" cy="17" r="6" fill="#ff5f57"/><circle cx="42" cy="17" r="6" fill="#febc2e"/><circle cx="62" cy="17" r="6" fill="#28c840"/>
+<text x="380.0" y="22" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#8b949e">jenoy@night: ~</text>
+<clipPath id="c0"><rect x="22" y="41" height="24" width="0">
+<animate attributeName="width" from="0" to="720" begin="0.60s" dur="0.35s" fill="freeze" calcMode="linear"/></rect></clipPath>
+<text x="24" y="58" clip-path="url(#c0)" font-family="ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#8bb4ff"><tspan fill="#7ee787">$</tspan> whoami</text><clipPath id="c1"><rect x="22" y="67" height="24" width="0">
+<animate attributeName="width" from="0" to="720" begin="1.20s" dur="0.35s" fill="freeze" calcMode="discrete"/></rect></clipPath>
+<text x="24" y="84" clip-path="url(#c1)" font-family="ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#8b949e">jenoy rex · data science engineering student · karnataka, india</text><clipPath id="c2"><rect x="22" y="93" height="24" width="0">
+<animate attributeName="width" from="0" to="720" begin="1.70s" dur="0.36s" fill="freeze" calcMode="linear"/></rect></clipPath>
+<text x="24" y="110" clip-path="url(#c2)" font-family="ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#8bb4ff"><tspan fill="#7ee787">$</tspan> cat now.txt</text><clipPath id="c3"><rect x="22" y="119" height="24" width="0">
+<animate attributeName="width" from="0" to="720" begin="2.31s" dur="0.35s" fill="freeze" calcMode="discrete"/></rect></clipPath>
+<text x="24" y="136" clip-path="url(#c3)" font-family="ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#e6edf3">learning: machine learning fundamentals, distributed systems</text><clipPath id="c4"><rect x="22" y="145" height="24" width="0">
+<animate attributeName="width" from="0" to="720" begin="2.81s" dur="0.35s" fill="freeze" calcMode="discrete"/></rect></clipPath>
+<text x="24" y="162" clip-path="url(#c4)" font-family="ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#e6edf3">doing: building small projects to learn how real software works</text><clipPath id="c5"><rect x="22" y="171" height="24" width="0">
+<animate attributeName="width" from="0" to="720" begin="3.31s" dur="0.42s" fill="freeze" calcMode="linear"/></rect></clipPath>
+<text x="24" y="188" clip-path="url(#c5)" font-family="ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#8bb4ff"><tspan fill="#7ee787">$</tspan> ls ~/projects</text><clipPath id="c6"><rect x="22" y="197" height="24" width="0">
+<animate attributeName="width" from="0" to="720" begin="3.98s" dur="0.35s" fill="freeze" calcMode="discrete"/></rect></clipPath>
+<text x="24" y="214" clip-path="url(#c6)" font-family="ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#e6edf3">ctx-receipt  vigil  vaultdrop  adpo  cooperation-lab  tender-radar  pata</text><clipPath id="c7"><rect x="22" y="223" height="24" width="0">
+<animate attributeName="width" from="0" to="720" begin="4.48s" dur="0.39s" fill="freeze" calcMode="linear"/></rect></clipPath>
+<text x="24" y="240" clip-path="url(#c7)" font-family="ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#8bb4ff"><tspan fill="#7ee787">$</tspan> echo $STATUS</text><clipPath id="c8"><rect x="22" y="249" height="24" width="0">
+<animate attributeName="width" from="0" to="720" begin="5.13s" dur="0.35s" fill="freeze" calcMode="discrete"/></rect></clipPath>
+<text x="24" y="266" clip-path="url(#c8)" font-family="ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#e6edf3">still learning · feedback and suggestions are always welcome</text>
+<rect x="24" y="278" width="9" height="17" fill="#8bb4ff" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.01;.5;.51" dur="1s" begin="5.63s" repeatCount="indefinite"/></rect>
+</g></svg>

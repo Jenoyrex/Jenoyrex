@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="150" viewBox="0 0 900 150">
+<style>.tw{animation:tw 3s ease-in-out infinite;opacity:.2}@keyframes tw{0%,100%{opacity:.15}50%{opacity:.9}}
+.moon{animation:float 6s ease-in-out infinite}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+.msg{animation:fade 1.6s ease-out .4s both}@keyframes fade{from{opacity:0;letter-spacing:6px}to{opacity:1;letter-spacing:1px}}</style>
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d1117" stop-opacity="0"/><stop offset="1" stop-color="#111a2b"/></linearGradient>
+<radialGradient id="glow"><stop offset="0" stop-color="#f0e6c8" stop-opacity=".35"/><stop offset="1" stop-color="#f0e6c8" stop-opacity="0"/></radialGradient>
+<mask id="cres"><rect width="900" height="150" fill="#fff"/><circle cx="459.0" cy="40" r="17" fill="#000"/></mask></defs>
+<rect width="900" height="150" fill="url(#sky)"/>
+<circle class="tw" cx="134.4" cy="96.6" r="1.38" fill="#fff" style="animation-delay:2.63s;animation-duration:3.38s"/>
+<circle class="tw" cx="493.4" cy="18.7" r="0.51" fill="#fff" style="animation-delay:3.88s;animation-duration:4.12s"/>
+<circle class="tw" cx="473.7" cy="108.6" r="0.89" fill="#fff" style="animation-delay:3.49s;animation-duration:4.57s"/>
+<circle class="tw" cx="192.2" cy="32.2" r="0.76" fill="#fff" style="animation-delay:0.96s;animation-duration:3.97s"/>
+<circle class="tw" cx="235.4" cy="50.9" r="0.62" fill="#fff" style="animation-delay:3.64s;animation-duration:3.38s"/>
+<circle class="tw" cx="412.7" cy="69.3" r="1.31" fill="#fff" style="animation-delay:1.68s;animation-duration:4.79s"/>
+<circle class="tw" cx="451.5" cy="63.6" r="0.97" fill="#fff" style="animation-delay:0.07s;animation-duration:3.60s"/>
+<circle class="tw" cx="167.3" cy="4.4" r="1.22" fill="#fff" style="animation-delay:0.69s;animation-duration:3.68s"/>
+<circle class="tw" cx="650.9" cy="66.3" r="0.79" fill="#fff" style="animation-delay:2.07s;animation-duration:3.89s"/>
+<circle class="tw" cx="703.6" cy="15.9" r="1.00" fill="#fff" style="animation-delay:0.99s;animation-duration:3.19s"/>
+<circle class="tw" cx="692.9" cy="60.9" r="1.01" fill="#fff" style="animation-delay:3.04s;animation-duration:4.78s"/>
+<circle class="tw" cx="399.4" cy="72.6" r="0.95" fill="#fff" style="animation-delay:2.05s;animation-duration:4.23s"/>
+<circle class="tw" cx="407.5" cy="63.7" r="0.93" fill="#fff" style="animation-delay:3.77s;animation-duration:4.25s"/>
+<circle class="tw" cx="785.9" cy="109.5" r="0.73" fill="#fff" style="animation-delay:2.24s;animation-duration:4.86s"/>
+<circle class="tw" cx="753.3" cy="19.4" r="0.61" fill="#fff" style="animation-delay:1.77s;animation-duration:2.68s"/>
+<circle class="tw" cx="218.6" cy="12.2" r="1.10" fill="#fff" style="animation-delay:3.14s;animation-duration:4.74s"/>
+<circle class="tw" cx="141.8" cy="84.2" r="1.09" fill="#fff" style="animation-delay:0.57s;animation-duration:4.71s"/>
+<circle class="tw" cx="867.0" cy="28.6" r="1.36" fill="#fff" style="animation-delay:1.59s;animation-duration:3.72s"/>
+<circle class="tw" cx="887.0" cy="97.2" r="0.65" fill="#fff" style="animation-delay:1.73s;animation-duration:3.79s"/>
+<circle class="tw" cx="306.5" cy="25.9" r="0.79" fill="#fff" style="animation-delay:2.89s;animation-duration:2.55s"/>
+<circle class="tw" cx="498.2" cy="53.3" r="0.52" fill="#fff" style="animation-delay:1.33s;animation-duration:4.06s"/>
+<circle class="tw" cx="460.9" cy="11.2" r="1.39" fill="#fff" style="animation-delay:3.15s;animation-duration:4.93s"/>
+<circle class="tw" cx="97.5" cy="33.7" r="0.54" fill="#fff" style="animation-delay:3.12s;animation-duration:3.18s"/>
+<circle class="tw" cx="119.6" cy="51.3" r="1.32" fill="#fff" style="animation-delay:3.28s;animation-duration:3.15s"/>
+<circle class="tw" cx="137.2" cy="106.9" r="1.01" fill="#fff" style="animation-delay:2.80s;animation-duration:2.72s"/>
+<circle class="tw" cx="55.3" cy="81.1" r="0.88" fill="#fff" style="animation-delay:0.29s;animation-duration:4.85s"/>
+<circle class="tw" cx="569.9" cy="93.8" r="0.58" fill="#fff" style="animation-delay:3.42s;animation-duration:2.67s"/>
+<circle class="tw" cx="773.6" cy="54.8" r="0.81" fill="#fff" style="animation-delay:2.21s;animation-duration:4.82s"/>
+<circle class="tw" cx="242.9" cy="18.5" r="0.97" fill="#fff" style="animation-delay:0.95s;animation-duration:2.77s"/>
+<circle class="tw" cx="148.0" cy="9.6" r="0.68" fill="#fff" style="animation-delay:1.25s;animation-duration:3.26s"/>
+<circle class="tw" cx="681.5" cy="36.5" r="0.95" fill="#fff" style="animation-delay:0.71s;animation-duration:3.37s"/>
+<circle class="tw" cx="20.2" cy="32.1" r="0.51" fill="#fff" style="animation-delay:2.93s;animation-duration:3.88s"/>
+<circle class="tw" cx="173.0" cy="57.2" r="1.34" fill="#fff" style="animation-delay:0.43s;animation-duration:4.55s"/>
+<circle class="tw" cx="389.5" cy="59.4" r="1.25" fill="#fff" style="animation-delay:1.57s;animation-duration:3.77s"/>
+<circle class="tw" cx="617.5" cy="114.0" r="0.81" fill="#fff" style="animation-delay:3.33s;animation-duration:4.27s"/>
+<circle class="tw" cx="571.3" cy="49.3" r="0.81" fill="#fff" style="animation-delay:0.22s;animation-duration:2.82s"/>
+<circle class="tw" cx="67.1" cy="87.0" r="0.73" fill="#fff" style="animation-delay:0.65s;animation-duration:2.71s"/>
+<circle class="tw" cx="754.4" cy="101.5" r="1.10" fill="#fff" style="animation-delay:1.13s;animation-duration:3.11s"/>
+<circle class="tw" cx="265.4" cy="55.5" r="0.64" fill="#fff" style="animation-delay:1.78s;animation-duration:3.16s"/>
+<circle class="tw" cx="861.9" cy="112.9" r="0.99" fill="#fff" style="animation-delay:0.98s;animation-duration:4.91s"/>
+<g class="moon"><circle cx="450.0" cy="44" r="38" fill="url(#glow)"/><circle cx="450.0" cy="44" r="18" fill="#f0e6c8" mask="url(#cres)"/></g>
+<text class="msg" x="450.0" y="104" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="15" fill="#e6edf3">thanks for stopping by ✦ have a good night</text>
+<path d="M0 150 L0 132 L60 122 L120 130 L190 116 L260 128 L330 118 L400 131 L470 119 L540 129 L610 115 L680 127 L750 120 L820 130 L900 121 L900 150Z" fill="#0a0e14"/>
+</svg>

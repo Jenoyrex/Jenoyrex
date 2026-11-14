@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="196" viewBox="0 0 420 196">
+<style>.tw{animation:tw 3s ease-in-out infinite;opacity:.2}@keyframes tw{0%,100%{opacity:.15}50%{opacity:.9}}
+.card{animation:rise .9s cubic-bezier(.2,.8,.2,1) 0.5s both}
+@keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+.sweep{animation:sweep 6s linear 1.5s infinite}@keyframes sweep{0%{transform:translateX(-160px)}40%,100%{transform:translateX(580px)}}
+.dot{animation:pulse 2s ease-in-out infinite}@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}</style>
+<defs><clipPath id="r"><rect x="1" y="1" width="418" height="194" rx="14"/></clipPath>
+<linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".06"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+<g class="card">
+<rect x=".5" y=".5" width="419" height="195" rx="14" fill="#0d1117" stroke="#30363d"/>
+<g clip-path="url(#r)"><g opacity=".8"><circle class="tw" cx="278.1" cy="182.4" r="0.57" fill="#fff" style="animation-delay:1.57s;animation-duration:3.03s"/>
+<circle class="tw" cx="405.3" cy="30.7" r="0.53" fill="#fff" style="animation-delay:0.24s;animation-duration:3.48s"/>
+<circle class="tw" cx="374.0" cy="170.1" r="0.87" fill="#fff" style="animation-delay:3.99s;animation-duration:4.83s"/>
+<circle class="tw" cx="139.6" cy="38.9" r="0.97" fill="#fff" style="animation-delay:2.99s;animation-duration:2.58s"/>
+<circle class="tw" cx="277.7" cy="75.2" r="0.69" fill="#fff" style="animation-delay:1.33s;animation-duration:2.92s"/>
+<circle class="tw" cx="5.2" cy="56.6" r="0.68" fill="#fff" style="animation-delay:3.82s;animation-duration:2.81s"/>
+<circle class="tw" cx="401.3" cy="43.0" r="0.68" fill="#fff" style="animation-delay:3.29s;animation-duration:4.56s"/>
+<circle class="tw" cx="182.2" cy="13.3" r="0.74" fill="#fff" style="animation-delay:1.49s;animation-duration:4.80s"/>
+<circle class="tw" cx="83.5" cy="72.5" r="0.95" fill="#fff" style="animation-delay:0.12s;animation-duration:3.53s"/>
+<circle class="tw" cx="338.5" cy="148.1" r="0.52" fill="#fff" style="animation-delay:0.14s;animation-duration:2.66s"/>
+<circle class="tw" cx="383.1" cy="52.3" r="0.87" fill="#fff" style="animation-delay:3.59s;animation-duration:3.35s"/>
+<circle class="tw" cx="116.2" cy="184.0" r="0.81" fill="#fff" style="animation-delay:1.05s;animation-duration:4.29s"/></g>
+<rect class="sweep" x="0" y="0" width="120" height="196" fill="url(#sh)" transform="skewX(-20)"/></g>
+<text x="22" y="46" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#e6edf3">📡 tender-radar</text>
+<rect x="310.0" y="28" width="88.0" height="22" rx="11" fill="#0f2a1b" stroke="#238636" stroke-opacity=".6"/>
+<circle class="dot" cx="321.0" cy="39" r="3.5" fill="#3fb950"/>
+<text x="330.0" y="43.5" font-family="ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#7ee787">runs daily</text>
+<text x="22" y="86" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="13.5" fill="#8b949e">Matches EU public tenders from TED to a short</text><text x="22" y="106" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="13.5" fill="#8b949e">business profile and publishes a daily page and RSS</text><text x="22" y="126" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="13.5" fill="#8b949e">feed.</text>
+<rect x="22" y="152" width="60" height="22" rx="11" fill="#161b22" stroke="#30363d"/><text x="52.0" y="167" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8bb4ff">Python</text><rect x="88" y="152" width="60" height="22" rx="11" fill="#161b22" stroke="#30363d"/><text x="118.0" y="167" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8bb4ff">SQLite</text><rect x="154" y="152" width="67" height="22" rx="11" fill="#161b22" stroke="#30363d"/><text x="187.5" y="167" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8bb4ff">Actions</text>
+</g></svg>

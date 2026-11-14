@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="196" viewBox="0 0 420 196">
+<style>.tw{animation:tw 3s ease-in-out infinite;opacity:.2}@keyframes tw{0%,100%{opacity:.15}50%{opacity:.9}}
+.card{animation:rise .9s cubic-bezier(.2,.8,.2,1) 0.5s both}
+@keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+.sweep{animation:sweep 6s linear 1.5s infinite}@keyframes sweep{0%{transform:translateX(-160px)}40%,100%{transform:translateX(580px)}}
+.dot{animation:pulse 2s ease-in-out infinite}@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}</style>
+<defs><clipPath id="r"><rect x="1" y="1" width="418" height="194" rx="14"/></clipPath>
+<linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".06"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+<g class="card">
+<rect x=".5" y=".5" width="419" height="195" rx="14" fill="#0d1117" stroke="#30363d"/>
+<g clip-path="url(#r)"><g opacity=".8"><circle class="tw" cx="72.9" cy="34.4" r="0.60" fill="#fff" style="animation-delay:3.62s;animation-duration:3.74s"/>
+<circle class="tw" cx="94.7" cy="174.4" r="1.00" fill="#fff" style="animation-delay:1.80s;animation-duration:2.85s"/>
+<circle class="tw" cx="83.3" cy="21.1" r="0.67" fill="#fff" style="animation-delay:0.36s;animation-duration:3.10s"/>
+<circle class="tw" cx="110.4" cy="111.1" r="0.94" fill="#fff" style="animation-delay:3.00s;animation-duration:3.53s"/>
+<circle class="tw" cx="174.5" cy="102.5" r="0.69" fill="#fff" style="animation-delay:1.35s;animation-duration:2.66s"/>
+<circle class="tw" cx="118.3" cy="185.9" r="0.56" fill="#fff" style="animation-delay:2.01s;animation-duration:4.07s"/>
+<circle class="tw" cx="359.5" cy="44.6" r="0.64" fill="#fff" style="animation-delay:0.99s;animation-duration:3.50s"/>
+<circle class="tw" cx="187.7" cy="183.3" r="0.92" fill="#fff" style="animation-delay:3.49s;animation-duration:2.55s"/>
+<circle class="tw" cx="17.3" cy="137.4" r="0.95" fill="#fff" style="animation-delay:1.89s;animation-duration:3.97s"/>
+<circle class="tw" cx="4.1" cy="77.6" r="0.96" fill="#fff" style="animation-delay:3.30s;animation-duration:4.64s"/>
+<circle class="tw" cx="404.6" cy="50.7" r="0.55" fill="#fff" style="animation-delay:0.62s;animation-duration:3.81s"/>
+<circle class="tw" cx="285.0" cy="181.0" r="0.86" fill="#fff" style="animation-delay:2.59s;animation-duration:4.41s"/></g>
+<rect class="sweep" x="0" y="0" width="120" height="196" fill="url(#sh)" transform="skewX(-20)"/></g>
+<text x="22" y="46" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#e6edf3">📊 ADPO</text>
+<rect x="349.6" y="28" width="48.4" height="22" rx="11" fill="#0f2a1b" stroke="#238636" stroke-opacity=".6"/>
+<circle class="dot" cx="360.6" cy="39" r="3.5" fill="#3fb950"/>
+<text x="369.6" y="43.5" font-family="ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#7ee787">demo</text>
+<text x="22" y="86" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="13.5" fill="#8b949e">Reads GitHub Actions run history and uses simple</text><text x="22" y="106" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="13.5" fill="#8b949e">statistics to point out slow or flaky CI steps.</text>
+<rect x="22" y="152" width="60" height="22" rx="11" fill="#161b22" stroke="#30363d"/><text x="52.0" y="167" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8bb4ff">Python</text><rect x="88" y="152" width="67" height="22" rx="11" fill="#161b22" stroke="#30363d"/><text x="121.5" y="167" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8bb4ff">FastAPI</text><rect x="161" y="152" width="53" height="22" rx="11" fill="#161b22" stroke="#30363d"/><text x="187.5" y="167" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8bb4ff">React</text>
+</g></svg>
