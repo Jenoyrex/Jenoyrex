@@ -70,8 +70,7 @@
 <summary><b>🌙 &nbsp;a quick note</b></summary>
 <br />
 
-I'm a student, and everything here is a learning project. Some of it is unfinished or experimental, and the
-READMEs say what works and what doesn't yet. If you see something I could do better, please open an
+I'm a student, and everything here is a learning project. If you see something I could do better, please open an
 issue or message me. I'd really appreciate it.
 
 </details>
