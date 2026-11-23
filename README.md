@@ -29,7 +29,7 @@
 
 <!-- ───────────────────────── 🌌 projects ───────────────────────── -->
 <h3 align="center">🌌 &nbsp;things i've been building</h3>
-<p align="center"><sub>student projects I made to learn. Some are finished, some aren't. Click a card to open the repo.</sub></p>
+<p align="center"><sub>student projects I made to learn. Some are finished, some aren't. Click  a card to open the repo.</sub></p>
 
 <table align="center">
 <tr>
