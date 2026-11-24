@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="700" height="214" viewBox="0 0 700 214" role="img" aria-label="Weekly GitHub contributions, November 2025 to November 2026: 635 in total, peaking at 266 in the week of 8 November 2026">
-<title>Weekly GitHub contributions, November 2025 to November 2026: 635 in total, peaking at 266 in the week of 8 November 2026</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="214" viewBox="0 0 700 214" role="img" aria-label="Weekly GitHub contributions, November 2025 to November 2026: 636 in total, peaking at 266 in the week of 8 November 2026">
+<title>Weekly GitHub contributions, November 2025 to November 2026: 636 in total, peaking at 266 in the week of 8 November 2026</title>
 <style>.t{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;font-size:12px;fill:#6e7681}.f{font-size:11px}.line{stroke-dasharray:1;animation:draw 1.6s cubic-bezier(.4,0,.2,1) both}.peak{animation:fade .5s ease-out 1.4s both}@keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}@keyframes fade{from{opacity:0}to{opacity:1}}@media (prefers-reduced-motion:reduce){.line,.peak{animation:none}}</style>
 <rect width="700" height="214" rx="6" fill="#0d1117"/>
 <line x1="34" y1="131.2" x2="686" y2="131.2" stroke="#21262d" stroke-width="1"/>
@@ -26,7 +26,7 @@
 <text x="535.5" y="180" class="t">sep</text>
 <text x="585.7" y="180" class="t">oct</text>
 <text x="648.4" y="180" class="t">nov</text>
-<polyline class="line" points="34.0,160.0 46.5,159.0 59.1,160.0 71.6,160.0 84.2,160.0 96.7,160.0 109.2,160.0 121.8,160.0 134.3,160.0 146.8,160.0 159.4,160.0 171.9,160.0 184.5,160.0 197.0,160.0 209.5,160.0 222.1,160.0 234.6,160.0 247.2,160.0 259.7,160.0 272.2,160.0 284.8,160.0 297.3,160.0 309.8,160.0 322.4,158.6 334.9,160.0 347.5,160.0 360.0,160.0 372.5,160.0 385.1,160.0 397.6,160.0 410.2,159.0 422.7,159.5 435.2,160.0 447.8,160.0 460.3,160.0 472.8,160.0 485.4,157.6 497.9,149.4 510.5,125.4 523.0,145.1 535.5,150.9 548.1,148.5 560.6,139.8 573.2,141.8 585.7,135.0 598.2,152.8 610.8,160.0 623.3,160.0 635.8,145.1 648.4,155.2 660.9,32.3 673.5,160.0 686.0,160.0" pathLength="1" fill="none" stroke="#c9d1d9" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="line" points="34.0,160.0 46.5,159.0 59.1,160.0 71.6,160.0 84.2,160.0 96.7,160.0 109.2,160.0 121.8,160.0 134.3,160.0 146.8,160.0 159.4,160.0 171.9,160.0 184.5,160.0 197.0,160.0 209.5,160.0 222.1,160.0 234.6,160.0 247.2,160.0 259.7,160.0 272.2,160.0 284.8,160.0 297.3,160.0 309.8,160.0 322.4,158.6 334.9,160.0 347.5,160.0 360.0,160.0 372.5,160.0 385.1,160.0 397.6,160.0 410.2,159.0 422.7,159.5 435.2,160.0 447.8,160.0 460.3,160.0 472.8,160.0 485.4,157.6 497.9,149.4 510.5,125.4 523.0,145.1 535.5,150.9 548.1,148.5 560.6,139.8 573.2,141.8 585.7,135.0 598.2,152.8 610.8,160.0 623.3,160.0 635.8,145.1 648.4,155.2 660.9,32.3 673.5,160.0 686.0,159.5" pathLength="1" fill="none" stroke="#c9d1d9" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
 <circle class="peak" cx="660.9" cy="32.3" r="4" fill="#0d1117" stroke="#e6edf3" stroke-width="2"/>
-<text x="34" y="204" class="t f">635 contributions · nov 2025 – nov 2026 · peak 266 in the week of 8 nov · through 23 nov 2026</text>
+<text x="34" y="204" class="t f">636 contributions · nov 2025 – nov 2026 · peak 266 in the week of 8 nov · through 24 nov 2026</text>
 </svg>
